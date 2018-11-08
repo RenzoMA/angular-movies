@@ -5,7 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 const appRoutes: Routes = [
   {
     path: 'entertaiment',
-    loadChildren: './entertaiment/entertaiment.module#EntertaimentModule'
+    loadChildren: './entertainment/entertaiment.module#EntertaimentModule'
   }
 ];
 
